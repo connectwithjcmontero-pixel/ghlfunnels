@@ -1,0 +1,23 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Big local tools (re-created by the setup steps, not stored in GitHub)
+bin/whisper.cpp/
+bin/venv/
+bin/models/
+build/
+
+# Videos and audio are too large for GitHub; keep them on your computer
+public/recordings/*
+public/screen-recordings/*
+public/sound-effects/*
+public/music/*
+public/cutouts/
+public/transcripts/
+ready to post/*
+!**/.gitkeep
